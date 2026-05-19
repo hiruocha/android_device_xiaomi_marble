@@ -13,13 +13,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_marble
 PRODUCT_DEVICE := marble
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := 23049PCD8G
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := 23049RAD8C
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="marble_global-user 15 AQ3A.250226.002 OS3.0.3.0.VMRMIXM release-keys" \
-    BuildFingerprint=POCO/marble_global/marble:15/AQ3A.250226.002/OS3.0.3.0.VMRMIXM:user/release-keys \
+    BuildDesc="marble-user 16 BP4A.251205.006 23.2 release-keys" \
+    BuildFingerprint=Redmi/marble/marble:16/BP4A.251205.006/23.2:user/release-keys \
     DeviceProduct=marble \
-    SystemName=marble_global
+    SystemName=marble
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
